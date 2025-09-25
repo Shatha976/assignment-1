@@ -15,6 +15,7 @@ The site is designed to be **responsive**, simple, and professional, ensuring ac
 ---
 
 ## 3. Project Structure
+```text
 assignment-1/
 ├── README.md
 ├── index.html
@@ -27,6 +28,8 @@ assignment-1/
 ├── docs/
     ├── ai-usage-report.md
     └── technical-documentation.md
+
+```
 
 ## 4. Key Features
 - **Navigation Bar** – Fixed, responsive, with dark/light theme toggle.  
@@ -55,7 +58,7 @@ assignment-1/
 ## 7. Deployment
 - The website is hosted via **GitHub Pages**.  
 - Deployment steps: push changes → GitHub builds → site available at  
-  `https://shatha976.github.io/portfolio/`
+  `https://shatha976.github.io/assignment-1/`
 
 ---
 
