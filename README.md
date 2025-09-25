@@ -1,6 +1,7 @@
 # 🌐 Shatha Alharbi – Portfolio
 
-![Portfolio Screenshot](./screenshot.png)
+![Portfolio Screenshot] <img width="1954" height="1197" alt="Screenshot 2025-09-25 205233" src="https://github.com/user-attachments/assets/e7ad6cf6-90b4-499e-85ac-dce7c6d2f9ac" />
+
 
 ## 📌 Project Overview
 This repository contains my **personal portfolio website**, built to represent my skills, projects, and background as a Software Engineering student.  
