@@ -9,14 +9,14 @@ During the development of my Assignment-1 portfolio website, I incorporated AI t
 
 ### ChatGPT
 - **Main Role:** Helped with code corrections and HTML/CSS adjustments.  
-- **Use Uses:**  
+- **Use cases:**  
   - Pointed out syntax mistakes in my JavaScript and suggested fixes for event listener errors.  
   - Recommended accessibility-friendly HTML tags and attributes to improve usability.  
   - Offered alternative approaches for simple form validation and limiting user input length.  
 
 ### Claude
 - **Main Role:** Assisted with front-end design and page structure.  
-- **Use Uses:**  
+- **Use cases:**  
   - Suggested responsive layouts using Flexbox to organize sections consistently.  
   - Proposed ideas for hover animations and transitions to make the portfolio more dynamic.  
   - Guided me in adjusting spacing, alignment, and color balance for a cleaner look.  
@@ -48,3 +48,4 @@ During the development of my Assignment-1 portfolio website, I incorporated AI t
 
 ## Final Reflection
 AI tools acted like a guide during the portfolio project, helping me spot mistakes faster and experiment with design improvements. While their input was valuable, the final decisions, edits, and implementations were my responsibility. This experience showed me that AI is best used as a supportive partner — speeding up work and offering inspiration, but always requiring critical thinking and human judgment to produce a meaningful result.
+
