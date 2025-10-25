@@ -46,6 +46,4 @@ AI tools were used as **assistants** to speed up and improve development:
 
 ---
 
-## 🚀 Live Deployment
-The portfolio is deployed here:  
-[**🔗 View Live Site**](https://shatha976.github.io/assignment-1/)  
+
