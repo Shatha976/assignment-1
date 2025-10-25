@@ -139,3 +139,211 @@
     .hero { padding-top: 180px; }
     .skills-grid { grid-template-columns: repeat(2, 1fr); }
   }
+
+  /* === GitHub Projects Section === */
+.github-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.github-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  padding: 1.5rem;
+  transition: var(--transition);
+}
+
+.github-card:hover {
+  transform: translateY(-4px);
+}
+
+.github-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.github-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+
+.github-card a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.github-card a:hover {
+  text-decoration: underline;
+}
+
+.github-status {
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.github-actions {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+/* === Fade-in animation for GitHub cards === */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.github-card {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* === AI Enhancement Feature === */
+.ai-enhance {
+  margin-top: 1rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.ai-main-btn {
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(142, 45, 226, 0.5);
+  transition: all 0.3s ease;
+}
+
+.ai-main-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(142, 45, 226, 0.8);
+}
+
+.ai-options {
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.ai-option {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.ai-option:hover {
+  background: rgba(142, 45, 226, 0.3);
+  transform: translateY(-2px);
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* AI options container hidden */
+.hidden { display: none; }
+
+/* Row: AI button (left) + Send (right) */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+/* AI button (left) */
+.ai-main-btn-left {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.ai-main-btn-left:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Send button (right, fills remaining space) */
+.submit-button {
+  flex-grow: 1;
+  background: linear-gradient(90deg, #0f4c75, #3282b8);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit-button:hover {
+  background: linear-gradient(90deg, #1b6ca8, #46a6d8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 140, 255, 0.3);
+}
+
+/* AI option chips */
+.ai-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+.ai-option {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.ai-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.hidden {
+  display: none;
+}
