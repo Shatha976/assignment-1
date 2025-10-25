@@ -1,20 +1,26 @@
-# 🌐 Shatha Alharbi – Portfolio
+# 🌐 Shatha Alharbi – Portfolio (Assignment 2)
 
-## Portfolio Screenshot 
-<img width="1954" height="1197" alt="Screenshot 2025-09-25 205233" src="https://github.com/user-attachments/assets/e7ad6cf6-90b4-499e-85ac-dce7c6d2f9ac" />
-
-
-## 📌 Project Overview
-This repository contains my **personal portfolio website**, built to represent my skills, projects, and background as a Software Engineering student.  
-The site is fully responsive and minimal in design, providing a clear way for others to learn more about me and explore my work.  
+## 📸 Portfolio Screenshot 
+<img width="1954" height="1197" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/e7ad6cf6-90b4-499e-85ac-dce7c6d2f9ac" />
 
 ---
 
-## 🖼️ Features
-- **About Me** – Short intro with tagline and academic focus.  
-- **Projects Showcase** – Highlighting selected projects with screenshots, descriptions, and GitHub links.  
-- **Skills & Technologies** – Grid-based visual display of languages and tools I’ve worked with.  
-- **Contact Section** – Simple form for visitors to reach out.  
+## 📌 Project Overview
+This repository contains my **personal portfolio website**, developed for **Assignment 2**.  
+It represents my background as a Software Engineering student and showcases my projects, skills, and contact information through an interactive, responsive design.
+
+The project also includes **AI-powered enhancements** and **real-time GitHub integration** to make it more dynamic and innovative.
+
+---
+
+## 🧩 Key Features
+- 🎨 **Light/Dark Theme Toggle** with local storage memory  
+- ✨ **AI Message Enhancer** – suggests friendly, professional, concise, or grammatically improved versions of the user’s message  
+- 🧠 **AI Popup Preview** – allows users to preview AI suggestions before applying  
+- 📬 **Contact Form** – with validation, feedback messages, and clean UI  
+- 💻 **GitHub API Integration** – fetches latest repositories dynamically  
+- 🧭 **Smooth Scrolling & Fade-in Animations**  
+- 📱 **Responsive Design** – optimized for desktop, tablet, and mobile  
 
 ---
 
