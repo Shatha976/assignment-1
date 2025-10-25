@@ -1,22 +1,23 @@
-# 📄 Technical Documentation – Portfolio Project
+# 📄 Technical Documentation – Portfolio Project (Assignment 2)
 
-## 1. Project Overview
-This project is a **personal portfolio website** created to present my background, skills, and selected projects.  
-The site is designed to be **responsive**, simple, and professional, ensuring accessibility across devices.
+## 1. Overview
+A personal portfolio website showcasing my skills, projects, and background as a Software Engineering student.  
+It includes advanced features such as **AI message enhancement**, **dark/light theming**, and **GitHub API integration**.
 
 ---
 
 ## 2. Technologies Used
-- **HTML5** – Structure and semantic layout.  
-- **CSS3** – Styling, responsiveness, and animations.  
-- **JavaScript (Vanilla)** – Theme toggling, smooth scrolling, and interactive elements.  
-- **GitHub Pages** – Deployment and hosting of the live site.  
+- **HTML5** – Structure and content layout  
+- **CSS3** – Design, responsiveness, transitions  
+- **JavaScript (ES6)** – Functionality, event handling, API requests  
+- **GitHub API** – Dynamic repository display  
+- **GitHub Pages** – Deployment  
 
 ---
 
 ## 3. Project Structure
 ```text
-assignment-1/
+assignment-2/
 ├── README.md
 ├── index.html
 ├── css/
@@ -31,38 +32,58 @@ assignment-1/
 
 ```
 
-## 4. Key Features
-- **Navigation Bar** – Fixed, responsive, with dark/light theme toggle.  
-- **Hero Section** – Intro with name, role, and a short description.  
-- **About Section** – Tagline and personal summary.  
-- **Skills Showcase** – Grid-based skill cards with icons and colors.  
-- **Projects Section** – Displays screenshots, descriptions, tech tags, and GitHub links.  
-- **Contact Section** – Simple form (front-end only, no backend).  
+## 4. Core Features
+| Feature | Description |
+|----------|--------------|
+| **Theme Toggle** | Switch between light/dark mode using `localStorage`. |
+| **Smooth Scrolling** | Smooth navigation across sections using scroll behavior API. |
+| **Fade-in Animation** | Elements fade in on intersection observer trigger. |
+| **AI Enhancer** | Provides tone/grammar improvements for the contact message. |
+| **AI Preview Popup** | Allows the user to review AI suggestions before applying. |
+| **GitHub API** | Fetches latest public repositories dynamically. |
+| **Error Handling** | Alerts for invalid form input and API fetch errors. |
 
 ---
 
-## 5. Responsive Design
-- **Desktop**: Full grid layout with large spacing.  
-- **Tablet/Mobile**: Grid collapses into fewer columns (skills grid becomes 2 columns).  
-- **Typography** scales with `clamp()` for better readability across screen sizes.  
+## 5. JavaScript Workflow
+1. **Theme Management**  
+   - Reads theme from `localStorage`.  
+   - Updates DOM attribute and icon dynamically.
+
+2. **AI Enhancement Logic**  
+   - Detects user message content.  
+   - Offers transformations: *friendly*, *professional*, *concise*, *grammar*.  
+   - Displays confirmation modal to preview AI-generated output.
+
+3. **GitHub Integration**  
+   - Fetches repositories using GitHub’s REST API.  
+   - Handles loading and error states.  
+   - Dynamically renders project cards with fade-in animation.
 
 ---
 
-## 6. JavaScript Functionalities
-- **Theme Toggle**: Switch between dark and light mode.  
-- **Smooth Scroll**: Navigation links smoothly scroll to sections.  
-- **Fade-in Animation**: Sections animate when they enter the viewport.  
+## 6. Responsiveness
+- CSS Grid & Flexbox adapt layout across screen sizes.  
+- Typography uses `clamp()` for fluid scaling.  
+- Navigation bar remains fixed and accessible.
 
 ---
 
 ## 7. Deployment
-- The website is hosted via **GitHub Pages**.  
-- Deployment steps: push changes → GitHub builds → site available at  
-  `https://shatha976.github.io/assignment-1/`
+- Hosted on **GitHub Pages**.  
+- Automatic updates upon commit to `main` branch.  
+- Accessible at: [https://shatha976.github.io/assignment-2/](https://shatha976.github.io/assignment-2/)
 
 ---
 
-## 8. Future Improvements
-- Add **backend integration** for the contact form (Node.js, Flask, etc.).  
-- Expand **Projects Section** with more case studies and live demos.  
+## 8. Future Enhancements
+- Integrate a **backend service** for real form submissions.  
+- Add **AI-generated project summaries** from GitHub data.  
+- Improve **accessibility (A11y)** and keyboard navigation.
 
+---
+
+## 9. Credits
+Created by **Shatha Alharbi**  
+Supervised as part of **SWE Assignment 2 (Portfolio Project)**  
+AI tools used responsibly: ChatGPT & Claude.
